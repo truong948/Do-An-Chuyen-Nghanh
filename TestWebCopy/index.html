@@ -1,0 +1,766 @@
+
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+            <meta name="description" content="zFrame | Create and share your frames"/>
+    
+    <link rel="canonical" href="https://khunghinh.net">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- for Facebook -->
+    <meta property="og:title" content="Trang chủ | Tạo khung hình chiến dịch, hoạt động, sự kiện | Tạo frame avatar facebook"/>
+    <meta property="og:type" content="article"/>
+        <meta property="og:url" content="https://khunghinh.net"/>
+            <meta property="og:description" content="zFrame | Create and share your frames"/>
+    
+    <title>Trang chủ | Tạo khung hình chiến dịch, hoạt động, sự kiện | Tạo frame avatar facebook</title>
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://khunghinh.net/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://khunghinh.net/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://khunghinh.net/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://khunghinh.net/img/favicons/favicon.ico">
+    <link rel="manifest" href="https://khunghinh.net/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="asset('/img/favicons/mstile-150x150.png')}}">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+        <link href="https://khunghinh.net/lib/slick/slick-1.6.0.css" rel="stylesheet">
+        <link href="https://khunghinh.net/lib/fontawesome-6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://khunghinh.net/theme/jadoo/assets/css/theme.css" rel="stylesheet" />
+    <link href="https://khunghinh.net/app/fonts.css" rel="stylesheet" rel="stylesheet">
+    <link href="https://khunghinh.net/app/css/style.css" rel="stylesheet">
+    
+                <script src="https://khunghinh.net/lib/jquery-3.6.1.min.js"></script>
+        <script>
+        var URL_ROOT = 'https://khunghinh.net';
+        var TOKEN = "4OoVUdczNvKj36vl1Giyou8a4hnHAab027h3otsY";
+        window.gg_tag_id = 'G-99YCHBY4PW';
+        window.translations = {"advertisements":"Qu\u1ea3ng c\u00e1o","add_frame":"Th\u00eam h\u00ecnh khung","add_photo_area":"Th\u00eam v\u00f9ng h\u00ecnh \u1ea3nh","apply":"\u00c1p d\u1ee5ng","by_downloads":"T\u00ednh b\u1edfi l\u01b0\u1ee3t t\u1ea3i","by_downloads_description":"G\u00f3i t\u00ednh b\u1edfi l\u01b0\u1ee3t t\u1ea3i, qu\u1ea3ng c\u00e1o s\u1ebd hi\u1ec3n th\u1ecb l\u1ea1i sau khi h\u1ebft s\u1ed1 l\u01b0\u1ee3ng l\u01b0\u1ee3ng t\u1ea3i \u0111\u01b0\u1ee3c c\u00e0i \u0111\u1eb7t.","hide_ad_active":"Khung kh\u00f4ng hi\u1ec3n th\u1ecb qu\u1ea3ng c\u1ea3o","homepage":{"title_slogan":"N\u01a1i khung h\u00ecnh  \u0111\u01b0\u1ee3c chia s\u1ebb","title":"T\u1ea1o \u003Cspan class=\u0027frame-keyword\u0027\u003Ekhung h\u00ecnh\u003C\/span\u003E\u003Cbr\u003E v\u00e0 lan t\u1ecfa chi\u1ebfn d\u1ecbch, s\u1ef1 ki\u1ec7n, ho\u1ea1t \u0111\u1ed9ng","title_description":"Cung c\u1ea5p c\u00e1c c\u00f4ng c\u1ee5 h\u00ecnh \u1ea3nh \u0111\u1ec3 t\u1ea1o khung h\u00ecnh v\u00e0 chia s\u1ebb th\u00f4ng \u0111i\u1ec7p v\u1ec1 chi\u1ebfn d\u1ecbch, s\u1ef1 ki\u1ec7n, ho\u1ea1t \u0111\u1ed9ng,... \u0111\u1ebfn m\u1ecdi ng\u01b0\u1eddi","try_it_now":"Th\u1eed ngay","create_frame_now":"T\u1ea1o ngay"},"change_frame":"\u0110\u1ed5i h\u00ecnh khung","colors":"M\u00e0u s\u1eafc","close_ad":"\u0110\u00f3ng","choose_id_photo_type":"Ch\u1ecdn lo\u1ea1i k\u00edch th\u01b0\u1edbc","copy":"Copy","crop_object":"C\u1eaft \u0111\u1ed1i t\u01b0\u1ee3ng","crop_object_rm_bg_description":"Ch\u1ecdn v\u00e0 c\u1eaft \u0111\u00fang ph\u1ea1m vi \u0111\u1ed1i t\u01b0\u1ee3ng \u0111\u1ec3 c\u00f4ng c\u1ee5 x\u00f3a n\u1ec1n x\u1eed l\u00fd nhanh v\u00e0 ch\u00ednh x\u00e1c h\u01a1n","category":"Danh m\u1ee5c","categories":"Danh m\u1ee5c","can_not_edit_frame_after_run_stable":"Khung h\u00ecnh kh\u00f4ng th\u1ec3 s\u1eeda sau khi \u0111\u00e3 ch\u1ea1y \u1ed5n \u0111\u1ecbnh.","confirm_change_id_photo_type":"Thay \u0111\u1ed5i k\u00edch th\u01b0\u1edbc?","confirm_edit_image":"Ch\u1ec9nh s\u1eeda chi ti\u1ebft h\u00ecnh \u1ea3nh n\u00e0y?","contact_content":"N\u1ebfu b\u1ea1n c\u00f3 b\u1ea5t k\u1ef3 c\u00e2u h\u1ecfi n\u00e0o, h\u00e3y li\u00ean h\u1ec7 v\u1edbi ch\u00fang t\u00f4i theo c\u00e1c \u0111\u1ecba ch\u1ec9 b\u00ean d\u01b0\u1edbi v\u00e0 ch\u00fang t\u00f4i s\u1ebd tr\u1ea3 l\u1eddi ngay khi c\u00f3 th\u1ec3. Vui l\u00f2ng cung c\u1ea5p c\u00e0ng nhi\u1ec1u th\u00f4ng tin c\u00e0ng t\u1ed1t.","done":"Ho\u00e0n t\u1ea5t","edit_photo_area":"\u0110i\u1ec1u ch\u1ec9nh v\u00f9ng h\u00ecnh \u1ea3nh","embed_code":"M\u00e3 nh\u00fang","embed_code_description":"H\u1ed7 tr\u1ee3 m\u00e3 nh\u00fang khung h\u00ecnh v\u00e0o website.","example_link":"\u003Ca href=\u0022:link\u0022\u003EV\u00ed d\u1ee5\u003C\/a\u003E","export":"K\u1ebft qu\u1ea3","gradients":"D\u1ea3i m\u00e0u","we_offer_best_tool":"C\u00f4ng c\u1ee5 ti\u1ec7n l\u1ee3i","turn_off_ad":"\u1ea8n qu\u1ea3ng c\u00e1o","try_out_best_tool":"C\u00e1c c\u00f4ng c\u1ee5 ti\u1ec7n l\u1ee3i","type":"Lo\u1ea1i","category_description":"Danh s\u00e1ch c\u00e1c c\u00f4ng c\u1ee5 x\u1eed l\u00fd h\u00ecnh \u1ea3nh ti\u1ec7n l\u1ee3i v\u00e0 ho\u00e0n to\u00e0n mi\u1ec5n ph\u00ed!","create_frame_description":"\u003Cstrong\u003ET\u1ea1o v\u00e0 chia s\u1ebb khung h\u00ecnh\u003C\/strong\u003E s\u1ef1 ki\u1ec7n, chi\u1ebfn d\u1ecbch, ho\u1ea1t \u0111\u1ed9ng, l\u1ec5 h\u1ed9i,... \u0111\u1ebfn m\u1ecdi ng\u01b0\u1eddi.","more_tool":"C\u00f4ng c\u1ee5 kh\u00e1c","tools":"C\u00f4ng c\u1ee5","company":"Khunghinh","contact":"Li\u00ean h\u1ec7","contact_us":"Li\u00ean h\u1ec7","frame_collection_description":"Khung c\u00f3 nhi\u1ec1u H\u00ccNH KHUNG","follow_us":"Theo d\u00f5i ch\u00fang t\u00f4i","choose_frame_type":"Ch\u1ecdn lo\u1ea1i khung h\u00ecnh","photo_collage_description":"Khung c\u00f3 nhi\u1ec1u V\u00d9NG H\u00ccNH","pricing":"B\u1ea3ng gi\u00e1","please_login_to_use_this_feature":"Vui l\u00f2ng \u0111\u0103ng nh\u1eadp \u0111\u1ec3 s\u1eed d\u1ee5ng t\u00ednh n\u0103ng n\u00e0y!","compress_image":"N\u00e9n h\u00ecnh \u1ea3nh","rate":"T\u1ef7 l\u1ec7","remove_background":"X\u00f3a n\u1ec1n","remove_background_history":"L\u1ecbch s\u1eed x\u00f3a n\u1ec1n","resize_image":"Thay \u0111\u1ed5i k\u00edch th\u01b0\u1edbc","rotate":"Xoay","transparent_tool":"T\u1ea1o v\u00f9ng trong su\u1ed1t","profile_maker":"T\u1ea1o h\u00ecnh \u0111\u1ea1i di\u1ec7n","profile_maker_description":"\u0110\u0103ng t\u1ea3i h\u00ecnh ch\u00e2n dung v\u00e0 t\u1ea1o ra nhi\u1ec1u h\u00ecnh \u0111\u1ea1i di\u1ec7n th\u00fa v\u1ecb v\u1edbi nhi\u1ec1u ki\u1ec3u khung kh\u00e1c nhau","profile":"T\u00e0i kho\u1ea3n","your_frame":"Khung h\u00ecnh","layer":"L\u1edbp","logout":"\u0110\u0103ng xu\u1ea5t","batch_action":"Thao t\u00e1c nhi\u1ec1u h\u00ecnh \u1ea3nh","brand_description":"Vinh d\u1ef1 khi nh\u1eadn \u0111\u01b0\u1ee3c s\u1ef1 tin t\u01b0\u1edfng \u0111\u1ed3ng h\u00e0nh lan t\u1ecfa chi\u1ebfn d\u1ecbch, s\u1ef1 ki\u1ec7n, ho\u1ea1t \u0111\u1ed9ng c\u00f9ng c\u00e1c \u0111\u01a1n v\u1ecb, \u0111o\u00e0n th\u1ec3, c\u00f4ng ty.","brush_size":"K\u00edch th\u01b0\u1edbc c\u1ecd","most_popular_frames":"C\u00e1c khung h\u00ecnh n\u1ed5i b\u1eadt","trending_frames_description":"Danh s\u00e1ch khung h\u00ecnh nh\u1eadn \u0111\u01b0\u1ee3c nhi\u1ec1u t\u01b0\u01a1ng t\u00e1c nh\u1ea5t trong 24 gi\u1edd qua.","use_this_frame":"Th\u1eed khung n\u1ea3y","use_original_size":"D\u00f9ng k\u00edch th\u01b0\u1edbc g\u1ed1c","upload":"T\u1ea3i l\u00ean","upload_multiple_photo":"\u0110\u0103ng t\u1ea3i nhi\u1ec1u h\u00ecnh","about_us":"V\u1ec1 ch\u00fang t\u00f4i","terms_of_service":"\u0110i\u1ec1u kho\u1ea3n s\u1eed d\u1ee5ng","privacy_policy":"Ch\u00ednh s\u00e1ch b\u1ea3o m\u1eadt","save":"L\u01b0u","save_to_list":"L\u01b0u v\u00e0o danh s\u00e1ch","share_this_link_via":"Chia s\u1ebb qua","show_embed_code":"Xem m\u00e3 nh\u00fang","smooth_index":"Ch\u1ec9 s\u1ed1 l\u00e0m m\u1ecbn","skin_smooth_tool":"C\u00f4ng c\u1ee5 l\u00e0m m\u1ecbn da","status_hide_by_download":"Khung \u0111\u01b0\u1ee3c \u1ea9n qu\u1ea3ng c\u00e1o khi s\u1ed1 l\u01b0\u1ee3t t\u1ea3i \u00edt h\u01a1n \u003Cstrong\u003E:no\u003C\/strong\u003E l\u01b0\u1ee3t.","id_photo":"\u1ea2nh th\u1ebb","id_photo_description":"T\u00ednh n\u0103ng t\u1ea1o \u1ea3nh th\u1ebb cho ph\u00e9p ng\u01b0\u1eddi d\u00f9ng d\u1ec5 d\u00e0ng t\u1ea1o \u1ea3nh th\u1ebb ch\u1ea5t l\u01b0\u1ee3ng t\u1ed1t nh\u1ea5t v\u00e0 tu\u00e2n th\u1ee7 quy \u0111\u1ecbnh ph\u00f9 h\u1ee3p cho h\u1ed9 chi\u1ebfu, gi\u1ea5y ph\u00e9p l\u00e1i xe v\u00e0 c\u00e1c t\u00e0i li\u1ec7u kh\u00e1c.","id_photo_size":"\u1ea2nh :size","invalid_chat_id_telegram":"B\u1eaft \u0111\u1ea7u chat v\u1edbi telegram \u0111\u1ec3 nh\u1eadn d\u1eef li\u1ec7u.","cancel":"H\u1ee7y","remove_background_description":"\u003Cstrong\u003EX\u00f3a n\u1ec1n h\u00ecnh \u1ea3nh\u003C\/strong\u003E nhanh ch\u00f3ng v\u1edbi \u0111\u1ed9 ch\u00ednh x\u00e1c cao. Ph\u00e1t hi\u1ec7n c\u00e1c \u0111\u1ed1i t\u01b0\u1ee3ng ch\u00ednh x\u00e1c v\u00e0 \u003Cstrong\u003Elo\u1ea1i b\u1ecf n\u1ec1n h\u00ecnh \u1ea3nh\u003C\/strong\u003E m\u1ed9t c\u00e1ch d\u1ec5 d\u00e0ng.","compress_image_description":"\u003Cstrong\u003EN\u00e9n h\u00ecnh PNG\u003C\/strong\u003E gi\u00fap ti\u1ebft ki\u1ec7m dung l\u01b0\u1ee3ng m\u00e0 v\u1eabn gi\u1eef ch\u1ea5t l\u01b0\u1ee3ng.","resize_image_description":"Thay \u0111\u1ed5i \u003Cstrong\u003Ek\u00edch th\u01b0\u1edbc h\u00ecnh \u1ea3nh\u003C\/strong\u003E","transparent_tool_description":"\u003Cstrong\u003ET\u1ea1o v\u00f9ng trong su\u1ed1t\u003C\/strong\u003E cho h\u00ecnh \u1ea3nh c\u1ee7a b\u1ea1n","support_image_jpeg_png_5mb":"H\u1ed7 tr\u1ee3 \u0111\u1ecbnh d\u1ea1ng JPEG\/PNG v\u00e0 dung l\u01b0\u1ee3ng t\u1ed1i \u0111a 5MB m\u1ed7i file!","support_image_png":"H\u1ed7 tr\u1ee3 \u0111\u1ecbnh d\u1ea1ng PNG","support_image_jpeg_png":"H\u1ed7 tr\u1ee3 \u0111\u1ecbnh d\u1ea1ng JPEG\/PNG","select_image":"Ch\u1ecdn h\u00ecnh","result_quality":"Ch\u1ea5t l\u01b0\u1ee3ng k\u1ebft qu\u1ea3","or_pay_one_time":"Ho\u1eb7c g\u00f3i tr\u1ea3 1 l\u1ea7n","only_pay_one_time":"Ch\u1ec9 tr\u1ea3 1 l\u1ea7n, t\u1ea5t c\u1ea3 ng\u01b0\u1eddi truy c\u1eadp s\u1ebd kh\u00f4ng th\u1ea5y qu\u1ea3ng c\u00e1o c\u1ee7a khung h\u00ecnh n\u00e0y.","original":"G\u1ed1c","original_image":"\u1ea2nh g\u1ed1c","original_size":"K\u00edch th\u01b0\u1edbc g\u1ed1c","only_support_use_computer":"Ch\u1ec9 h\u1ed7 tr\u1ee3 t\u00ednh n\u0103ng tr\u00ean m\u00e1y t\u00ednh","result":"K\u1ebft qu\u1ea3","person":"Ng\u01b0\u1eddi","please_do_not_upload_frame_image":"Vui l\u00f2ng kh\u00f4ng \u0111\u0103ng t\u1ea3i h\u00ecnh khung l\u00ean!","animal":"\u0110\u1ed9ng v\u1eadt","motorbike":"Xe m\u00f4 t\u00f4","plant_pot":"Ch\u1eadu c\u00e2y","rm_bg_auto_simple":"T\u1ef1 \u0111\u1ed9ng v\u00e0 \u0111\u01a1n gi\u1ea3n","rm_bg_auto_simple_description":"V\u1edbi h\u00ecnh \u1ea3nh \u0111\u01b0\u1ee3c t\u00e1ch n\u1ec1n, ch\u00fang ta c\u00f3 th\u1ec3 t\u1ef1 do s\u00e1ng t\u1ea1o v\u1edbi h\u00ecnh n\u1ec1n m\u1edbi \u0111\u1ec3 c\u00f3 nh\u1eefng b\u1ee9c h\u00ecnh tuy\u1ec7t v\u1eddi. H\u1ec7 th\u1ed1ng t\u1ef1 \u0111\u1ed9ng x\u1eed l\u00fd v\u00e0 ch\u1ec9 l\u01b0u tr\u1eef h\u00ecnh \u1ea3nh c\u1ee7a b\u1ea1n trong v\u00f2ng 60 ph\u00fat.","creative_rm_bg":"S\u00e1ng t\u1ea1o v\u1edbi nh\u1eefng h\u00ecnh \u1ea3nh \u0111\u01b0\u1ee3c t\u00e1ch n\u1ec1n","human":"Ng\u01b0\u1eddi","cat":"Ho\u00e0ng th\u01b0\u1ee3ng","backpack":"Ba l\u00f4","rm_bg":"X\u00f3a n\u1ec1n","new":"M\u1edbi","new_gb":"H\u00ecnh n\u1ec1n m\u1edbi","not_recorded_in_frame_report":"Kh\u00f4ng ghi nh\u1eadn v\u00e0o b\u00e1o c\u00e1o khung h\u00ecnh","rm_bg_in_process_description":"H\u00ecnh \u1ea3nh \u0111ang \u0111\u01b0\u1ee3c x\u1eed l\u00fd trong v\u00e0i ph\u00fat. B\u1ea1n c\u00f3 th\u1ec3 t\u1eaft tr\u00ecnh duy\u1ec7t v\u00e0 quay l\u1ea1i trong 60 ph\u00fat \u0111\u1ec3 t\u1ea3i \u1ea3nh k\u1ebft qu\u1ea3.","rm_bg_download_result":"Vui l\u00f2ng t\u1ea3i h\u1ec9nh \u1ea3nh, h\u00ecnh ch\u1ec9 \u0111\u01b0\u1ee3c l\u01b0u t\u1ea1m trong v\u00f2ng 60 ph\u00fat.","image_download_store_60_minutes":"H\u00ecnh ch\u1ec9 \u0111\u01b0\u1ee3c l\u01b0u t\u1ea1m trong v\u00f2ng 60 ph\u00fat.","error":"L\u1ed7i","error_in_process":"C\u00f3 l\u1ed7i x\u1ea3y ra trong qu\u00e1 tr\u00ecnh x\u1eed l\u00fd. Vui l\u00f2ng th\u1eed l\u1ea1i sau.","default_language":"Ng\u00f4n ng\u1eef m\u1eb7c \u0111\u1ecbnh","download":"T\u1ea3i v\u1ec1","try":"Th\u1eed ngay","try_other_img":"Th\u1eed h\u00ecnh \u1ea3nh kh\u00e1c","try_with_another_image":"Th\u1eed h\u00ecnh \u1ea3nh kh\u00e1c","login":"\u0110\u0103ng nh\u1eadp","login_modal_description":"B\u1eb1ng c\u00e1ch \u0111\u0103ng nh\u1eadp, b\u1ea1n \u0111\u00e3 \u0111\u1ed3ng \u00fd v\u1ec1 \u003Cbr\u003E\u003Ca href=\u0022:url_term\u0022\u003E\u0110i\u1ec1u kho\u1ea3n s\u1eed d\u1ee5ng\u003C\/a\u003E v\u00e0 \u003Ca href=\u0022:url_privacy_policy\u0022\u003ECh\u00ednh s\u00e1ch b\u1ea3o m\u1eadt\u003C\/a\u003E c\u1ee7a \u003Cstrong\u003E:app_name\u003C\/strong\u003E","login_via_google":"\u0110\u0103ng nh\u1eadp qua Google","title_new_frame":"T\u1ea1o khung h\u00ecnh | Chia s\u1ebb khung h\u00ecnh","title_create_photo_collage":"T\u1ea1o khung h\u00ecnh gh\u00e9p | Chia s\u1ebb khung h\u00ecnh","create_frame":"T\u1ea1o khung h\u00ecnh","create_frame_collection":"T\u1ea1o khung c\u00f3 nhi\u1ec1u h\u00ecnh khung","create_photo_collage":"T\u1ea1o khung h\u00ecnh gh\u00e9p","create_frames":"T\u1ea1o khung h\u00ecnh","create_frame_collage":"T\u1ea1o khung h\u00ecnh gh\u00e9p","frame":{"require_format":"\u0110\u1ecbnh d\u1ea1ng b\u1eaft bu\u1ed9c h\u00ecnh khung l\u00e0 PNG v\u00e0 ph\u1ea3i c\u00f3 \u003Cstrong\u003Ev\u00f9ng trong su\u1ed1t\u003C\/strong\u003E.","limit_number_of_frame":"C\u00f3 th\u1ec3 th\u00eam nhi\u1ec1u h\u01a1n 1 h\u00ecnh khung. T\u1ed1i \u0111a l\u00e0 \u003Cstrong\u003E5 h\u00ecnh khung\u003C\/strong\u003E.","recommended_edge_size":"K\u00edch th\u01b0\u1edbc \u0111\u1ec1 xu\u1ea5t l\u00e0 h\u00ecnh vu\u00f4ng c\u1ea1nh \u003Cstrong\u003E1080px\u003C\/strong\u003E.","limit_file_size":"Dung l\u01b0\u1ee3ng t\u1ed1i \u0111a c\u1ee7a h\u00ecnh khung l\u00e0 \u003Cstrong\u003E2MB\u003C\/strong\u003E.","format_file_size":"\u0111\u1ecbnh d\u1ea1ng PNG, t\u1ed1i \u0111a 2MB","edge_size":"k\u00edch th\u01b0\u1edbc c\u1ea1nh 1080px","reach_maximum":"\u0110\u00e3 \u0111\u1ea1t s\u1ed1 l\u01b0\u1ee3ng h\u00ecnh khung t\u1ed1i \u0111a"},"upload_frame":"T\u1ea3i l\u00ean h\u00ecnh khung","image_require":"Vui l\u00f2ng t\u1ea3i l\u00ean 1 h\u00ecnh khung!","next":"Ti\u1ebfp t\u1ee5c","back":"Quay l\u1ea1i","information":"Th\u00f4ng tin","title":"T\u00ean khung h\u00ecnh","frame_name":"T\u00ean khung h\u00ecnh","character_limit":"Gi\u1edbi h\u1ea1n t\u1eeb :min \u0111\u1ebfn :max k\u00fd t\u1ef1.","character_min_limit":"\u0110\u1ed9 d\u00e0i t\u1ed1i thi\u1ec3u l\u00e0 :value k\u00fd t\u1ef1","character_max_limit":"\u0110\u1ed9 d\u00e0i t\u1ed1i \u0111a l\u00e0 :value k\u00fd t\u1ef1","frame_link_length_invalid":"\u0110\u1ed9 d\u00e0i \u0111\u01b0\u1eddng d\u1eabn kh\u00f4ng h\u1ee3p l\u1ec7!","title_length_invalid":"T\u00ean khung h\u00ecnh kh\u00f4ng h\u1ee3p l\u1ec7!","select":"Ch\u1ecdn","event":"S\u1ef1 ki\u1ec7n","activity":"Ho\u1ea1t \u0111\u1ed9ng","campaign":"Chi\u1ebfn d\u1ecbch","festival":"L\u1ec5 h\u1ed9i","other":"Kh\u00e1c","require_category":"Ch\u1ecdn danh m\u1ee5c","visibility":"Hi\u1ec3n th\u1ecb","page_hidden_description":"Trang s\u1ef1 ki\u1ec7n \u0111\u00e3 b\u1ecb \u1ea9n","public":"C\u00f4ng khai","unlisted":"H\u1ea1n ch\u1ebf","private":"Ri\u00eang t\u01b0","visibility_public_description":"Khung h\u00ecnh c\u1ee7a b\u1ea1n c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c th\u1ea5y t\u1ea1i kh\u00e1c trang kh\u00e1c.","visibility_public_unlisted":"Ch\u1ec9 ng\u01b0\u1eddi d\u00f9ng \u0111\u01b0\u1ee3c chia s\u1ebb \u0111\u01b0\u1eddng d\u1eabn m\u1edbi c\u00f3 th\u1ec3 nh\u00ecn th\u1ea5y.","visibility_public_private":"Ch\u1ec9 m\u00ecnh b\u1ea1n m\u1edbi c\u00f3 th\u1ec3 nh\u00ecn th\u1ea5y.","require_visibility":"Ch\u1ecdn hi\u1ec3n th\u1ecb","frame_link":"\u0110\u01b0\u1eddng d\u1eabn","frame_link_description":"\u0110\u01b0\u1eddng d\u1eabn \u0111\u1ec3 chia s\u1ebb, \u0111\u1ed9 d\u00e0i t\u1eeb 8 \u0111\u1ebfn 100 k\u00fd t\u1ef1.","other_information":"Th\u00f4ng tin kh\u00e1c","not_require_enter_other_information":"Kh\u00f4ng b\u1eaft bu\u1ed9c nh\u1eadp c\u00e1c th\u00f4ng tin kh\u00e1c","begin_time":"Th\u1eddi gian b\u1eaft \u0111\u1ea7u","end_time":"Th\u1eddi gian k\u1ebft th\u00fac","begin_time_before_end_time":"Th\u1eddi gian b\u1eaft \u0111\u1ea7u ph\u1ea3i tr\u01b0\u1edbc th\u1eddi gian k\u1ebft th\u00fac","description":"N\u1ed9i dung","default_photo":"H\u00ecnh m\u1eb7c \u0111\u1ecbnh","create":"T\u1ea1o","submit":"G\u1eedi","header_area":"V\u00f9ng \u0111\u1ea7u trang","change_header_image":"\u0110\u1ed5i h\u00ecnh ti\u00eau \u0111\u1ec1","your_newest_frame":"Khung h\u00ecnh m\u1edbi nh\u1ea5t","verified":"\u0110\u00e3 x\u00e1c th\u1ef1c","premium":"Premium","active_premium":"K\u00edch ho\u1ea1t Premium","update":"C\u1eadp nh\u1eadt","edit":"S\u1eeda","more":"th\u00eam","more_your_frame":"xem th\u00eam khung h\u00ecnh","see_more":"xem th\u00eam","choose_image":"Ch\u1ecdn h\u00ecnh","choose_photo":"Ch\u1ecdn h\u00ecnh","please_add_frame":"Vui l\u00f2ng th\u00eam h\u00ecnh khung!","ok":"OK","ok_waiting_create":"Nh\u1ea5n OK v\u00e0 \u0111\u1ee3i ho\u00e0n t\u1ea5t qu\u00e1 tr\u00ecnh!","ok_waiting_update":"Nh\u1ea5n OK v\u00e0 \u0111\u1ee3i ho\u00e0n t\u1ea5t qu\u00e1 tr\u00ecnh!","frame_link_exist":"\u0110\u01b0\u1eddng d\u1eabn \u0111\u00e3 t\u1ed3n t\u1ea1i!","min_edge_support":"K\u00edch th\u01b0\u1edbc c\u1ea1nh t\u1ed1i thi\u1ec3u l\u00e0 :min px.\u003Cbr\u003ETh\u1eed l\u1ea1i h\u00ecnh kh\u00e1c.","max_edge_support":"K\u00edch th\u01b0\u1edbc c\u1ea1nh t\u1ed1i \u0111a l\u00e0 :max px.\u003Cbr\u003ETh\u1eed thay \u0111\u1ed5i k\u00edch th\u01b0\u1edbc h\u00ecnh \u003Ca href=\u0022:resize_path\u0022\u003Et\u1ea1i \u0111\u00e2y\u003C\/a\u003E.","frame_invalid":"H\u00ecnh khung kh\u00f4ng h\u1ee3p l\u1ec7!","image_invalid":"H\u00ecnh \u1ea3nh kh\u00f4ng h\u1ee3p l\u1ec7!","image_invalid_and_try_other_image":"H\u00ecnh \u1ea3nh kh\u00f4ng h\u1ee3p l\u1ec7, vui l\u00f2ng th\u1eed l\u1ea1i \u1ea3nh kh\u00e1c.","max_frame_size_support":"Dung l\u01b0\u1ee3ng h\u1ed7 tr\u1ee3 t\u1ed1i \u0111a l\u00e0 :max MB.\u003Cbr\u003ETh\u1eed n\u00e9n h\u00ecnh \u1ea3nh gi\u1ea3m d\u1ee5ng l\u01b0\u1ee3ng \u003Ca href=\u0022:compress_path\u0022\u003Et\u1ea1i \u0111\u00e2y\u003C\/a\u003E.","frame_transparent_required":"H\u00ecnh khung y\u00eau c\u1ea7u v\u00f9ng trong su\u1ed1t.\u003Cbr\u003ETh\u1eed t\u1ea1o v\u00f9ng trong su\u1ed1t \u003Ca href=\u0022:transparent_path\u0022\u003Et\u1ea1i \u0111\u00e2y\u003C\/a\u003E.","max_file_size_support":"Dung l\u01b0\u1ee3ng h\u1ed7 tr\u1ee3 t\u1ed1i \u0111a l\u00e0 :max MB","confirm_delete":"X\u00f3a khung h\u00ecnh n\u00e0y?","frame_delete_confirm":"X\u00f3a \u0022:frame\u0022?","confirm":"X\u00e1c nh\u1eadn","no":"Kh\u00f4ng","frame_detail_show_update_text":"Ch\u1ec9nh s\u1eeda khung h\u00ecnh \u003Ca href=\u0022:slug\u0022\u003ET\u1ea0I \u0110\u00c2Y\u003C\/a\u003E!","view_all":"Xem th\u00eam","view":"xem","views":"l\u01b0\u1ee3t xem","downloads":"l\u01b0\u1ee3t t\u1ea3i","views_downloads":"L\u01b0\u1ee3t xem v\u00e0 L\u01b0\u1ee3t t\u1ea3i","choose_frame":"Ch\u1ecdn khung","flip":"L\u1eadt h\u00ecnh","flip_image":"L\u1eadt h\u00ecnh","change":"Change","change_image":"\u0110\u1ed5i h\u00ecnh","processing":"\u0110ang x\u1eed l\u00fd ...","mobile_download_instruction":"Ch\u00fa \u00fd! N\u1ebfu h\u00ecnh kh\u00f4ng t\u1ef1 \u0111\u1ed9ng t\u1ea3i. \u003Cbr\u003E\u1ea4n gi\u1eef h\u00ecnh t\u1eeb 5 gi\u00e2y tr\u1edf l\u00ean \u0111\u1ec3 hi\u1ec3n th\u1ecb t\u00f9y ch\u1ecdn t\u1ea3i xu\u1ed1ng.","try_mini_app":"Ho\u1eb7c th\u1eed t\u1ea1i mini app:","make_other":"T\u1ea1o l\u1ea1i","share":"Chia s\u1ebb","click_copy_url":"Nh\u1ea5n \u0111\u1ec3 sao ch\u00e9p \u0111\u01b0\u1eddng d\u1eabn","qr_code":"M\u00e3 QR","download_qr_code":"T\u1ea3i m\u00e3 QR","copied_success":"Sao ch\u00e9p th\u00e0nh c\u00f4ng!","adjust_photo":"\u0110i\u1ec1u ch\u1ec9nh h\u00ecnh \u1ea3nh","made_with":"T\u1ea1o b\u1edfi","edit_frame":"Ch\u1ec9nh s\u1eeda khung h\u00ecnh","delete":"X\u00f3a","delete_frame_success":"X\u00f3a \u0022:frame\u0022 th\u00e0nh c\u00f4ng!","edit_frame_success":"Ch\u1ec9nh s\u1eeda khung h\u00ecnh \u003Cb\u003E\u0022:frame\u0022\u003C\/b\u003E th\u00e0nh c\u00f4ng!","create_frame_success":"T\u1ea1o khung h\u00ecnh \u003Cb\u003E\u0022:frame\u0022\u003C\/b\u003E th\u00e0nh c\u00f4ng!","frames":"khung h\u00ecnh","created_at":"T\u1ea1o l\u00fac","your_account":"T\u00e0i kho\u1ea3n c\u1ee7a b\u1ea1n","profile_avatar":"H\u00ecnh \u0111\u1ea1i di\u1ec7n","full_name":"T\u00ean \u0111\u1ea7y \u0111\u1ee7","report":"B\u00e1o c\u00e1o","year":"n\u0103m","month":"th\u00e1ng","week":"tu\u1ea7n","day":"ng\u00e0y","hour":"gi\u1edd","minute":"ph\u00fat","second":"gi\u00e2y","ago":"tr\u01b0\u1edbc","just_now":"v\u1eeba m\u1edbi \u0111\u00e2y","creation_date":"Ng\u00e0y t\u1ea1o","full_name_length_invalid":"\u0110\u1ed9 d\u00e0i t\u00ean kh\u00f4ng h\u1ee3p l\u1ec7!\u003Cbr\u003EGi\u1edbi h\u1ea1n t\u1eeb :min \u0111\u1ebfn :max k\u00fd t\u1ef1.","error_happen":"\u0110\u00e3 c\u00f3 l\u1ed7i x\u1ea3y ra. Vui l\u00f2ng th\u1eed l\u1ea1i sau.","invalid_request":"Y\u00eau c\u1ea7u kh\u00f4ng h\u1ee3p l\u1ec7","update_successful":"C\u1eadp nh\u1eadt th\u00e0nh c\u00f4ng!","upload_successful":"T\u1ea3i l\u00ean th\u00e0nh c\u00f4ng!","save_frame_img_error":"Kh\u00f4ng th\u1ec3 l\u01b0u h\u00ecnh khung!","just_stable_on_desktop":"Ch\u1ec9 ho\u1ea1t \u0111\u1ed9ng \u1ed5n \u0111\u1ecbnh tr\u00ean m\u00e1y t\u00ednh","size":"K\u00edch c\u1ee1","width":"Chi\u1ec1u r\u1ed9ng","height":"Chi\u1ec1u cao","shape_erase_area":"H\u00ecnh d\u1ea1ng v\u00f9ng x\u00f3a","color_erase_area":"M\u00e0u v\u00f9ng x\u00f3a","erase_stroke":"N\u00e9t x\u00f3a","step":"B\u01b0\u1edbc","choose_color_erase":"Ch\u1ecdn m\u00e0u \u0111\u1ec3 x\u00f3a","change_range":"Thay \u0111\u1ed5i ph\u1ea1m vi x\u00f3a","save_new_erase_area":"L\u01b0u v\u00f9ng x\u00f3a","erased_color":"X\u00f3a b\u1eb1ng m\u00e0u","range":"V\u00f9ng ch\u1ecdn","angle":"G\u00f3c","color_eraser":"X\u00f3a m\u00e0u","eraser":"X\u00f3a","shape":"H\u00ecnh d\u1ea1ng","view_result":"Xem k\u1ebft qu\u1ea3","hold_download_on_mobile":"\u1ea4n gi\u1eef h\u00ecnh \u1ea3nh \u0111\u1ec3 t\u1ea3i tr\u00ean \u0111i\u1ec7n tho\u1ea1i!","just_saved_you":"Ti\u1ebft ki\u1ec7m","download_all":"T\u1ea3i v\u1ec1 t\u1ea5t c\u1ea3","file_name":"T\u00ean file","detail":"Chi ti\u1ebft","close":"\u0110\u00f3ng","keep_aspect_ratio":"Gi\u1eef t\u1ef7 l\u1ec7 c\u1ea1nh","page_not_found":"Trang kh\u00f4ng t\u1ed3n t\u1ea1i!","file_not_exist":"File kh\u00f4ng t\u1ed3n t\u1ea1i!","file_not_exist_description":"Kh\u00f4ng th\u1ec3 t\u1ea3i file kh\u00f4ng t\u1ed3n t\u1ea1i!","back_to_home":"V\u1ec1 trang ch\u1ee7","page_not_found_description":"Trang truy c\u1eadp kh\u00f4ng t\u1ed3n t\u1ea1i.\u003Cbr\u003EVui l\u00f2ng tr\u1edf v\u1ec1 \u003Ca href=\u0022\/\u0022\u003Etrang ch\u1ee7\u003C\/a\u003E!","upload_image_get_create_background":"\u0110\u0103ng h\u00ecnh \u1ea3nh v\u00e0 s\u00e1ng t\u1ea1o c\u00f9ng nh\u1eefng h\u00ecnh n\u1ec1n kh\u00e1c bi\u1ec7t.","background_color":"M\u00e0u n\u1ec1n","background":"N\u1ec1n","shadow":"B\u00f3ng","creative":"S\u00e1ng t\u1ea1o","all":"T\u1ea5t c\u1ea3","landscape":"C\u1ea3nh v\u1eadt","basic":"C\u01a1 b\u1ea3n","in_door":"Trong nh\u00e0","product":"S\u1ea3n ph\u1ea9m","bokeh":"V\u1ebft s\u00e1ng","your_image":"H\u00ecnh c\u1ee7a b\u1ea1n","download_result":"T\u1ea3i h\u00ecnh k\u1ebft qu\u1ea3","instruction_download_result_image":"Nh\u1ea5n n\u00fat \u0022T\u1ea3i\u0022 n\u1ebfu h\u00ecnh kh\u00f4ng \u0111\u01b0\u1ee3c t\u1ef1 t\u1ea3i sau 3 gi\u00e2y.","text_suggest_like_page":"N\u1ebfu b\u1ea1n y\u00eau th\u00edch trang, hy v\u1ecdng b\u1ea1n \u0111\u1ec3 l\u1ea1i 1 like cho trang c\u0169ng nh\u01b0 theo d\u00f5i c\u00e1c t\u00ednh n\u0103ng m\u1edbi h\u1ea5p d\u1eabn trong t\u01b0\u01a1ng lai.","reset":"Reset","square":"H\u00ecnh vu\u00f4ng 1:1","circle":"H\u00ecnh tr\u00f2n","text":"V\u0103n b\u1ea3n","text_color":"M\u00e0u ch\u1eef","bg_color":"M\u00e0u n\u1ec1n","border":"Vi\u1ec1n","stroke":"Vi\u1ec1n","z_tool":"zTool","zoom":"Thu ph\u00f3ng","warp":"U\u1ed1n cong","color":"M\u00e0u","blur":"V\u00f9ng m\u1edd","distance":"Kho\u1ea3ng c\u00e1ch","perspective":"G\u00f3c m\u1edd","format":"\u0110\u1ecbnh d\u1ea1ng","position":"V\u1ecb tr\u00ed","rotation_angle":"G\u00f3c xoay","center":"Trung t\u00e2m","center_x":"Gi\u1eef chi\u1ec1u ngang","center_y":"Gi\u1eefa chi\u1ec1u d\u1ecdc","font":"Font","current_font":"Font hi\u1ec7n t\u1ea1i","font_size":"C\u1ee1 ch\u1eef","alignment":"C\u0103n ch\u1ec9nh","letter_spacing":"Kho\u1ea3ng gi\u1eefa ch\u1eef","line_height":"Kho\u1ea3ng c\u00e1ch d\u00f2ng","curve":"U\u1ed1n cong","none":"Kh\u00f4ng","downward_curve":"Cong xu\u1ed1ng","upward_curve":"Cong l\u00ean","curve_angle":"\u0110\u1ed9 cong","layers":"L\u1edbp","preview":"Xem k\u1ebft qu\u1ea3","copy_to_clipboard":"Sao ch\u00e9p v\u00e0o b\u1ed9 nh\u1edb \u0111\u1ec7m","copy_to_clipboard_success":"Sao ch\u00e9p v\u00e0o b\u1ed9 nh\u1edb \u0111\u1ec7m th\u00e0nh c\u00f4ng","save_png":"L\u01b0u ki\u1ec3u PNG","new_project":"T\u1ea1o m\u1edbi","upload_photo":"T\u1ea3i l\u00ean h\u00ecnh \u1ea3nh","frame_size":"K\u00edch th\u01b0\u1edbc khung","custom_size":"K\u00edch th\u01b0\u1edbc ph\u1ed5 bi\u1ebfn","aspect_ratio":"T\u1ef7 l\u1ec7","instagram_post":"Instagram Post","instagram":"Instagram","instagram_story":"Instagram Story","horizontal_16_9":"H\u00ecnh ch\u1eef nh\u1eadt 16:9","horizontal_4_3":"H\u00ecnh ch\u1eef nh\u1eadt 4:3","facebook":"Facebook","facebook_avatar":"\u1ea2nh \u0111\u1ea1i di\u1ec7n Facebook","facebook_cover":"\u1ea2nh b\u00eca Facebook","facebook_ad":"Facebook Ad","youtube":"Youtube","youtube_thumbnail":"Youtube Thumbnail","youtube_cover":"Youtube Cover","x_twitter":"X\/Twitter","x_twitter_header":"X\/Twitter Header","x_twitter_profile":"X\/Twitter Profile","x_twitter_post":"X\/Twitter Post","top_trending":"Top trending","trending":"Xu h\u01b0\u1edbng","no_data":"Ch\u01b0a c\u00f3 d\u1eef li\u1ec7u","trending_data_auto_update_5_minutes":"D\u1eef li\u1ec7u t\u1ef1 \u0111\u1ed9ng c\u1eadp nh\u1eadt m\u1ed7i 5 ph\u00fat","today":"H\u00f4m nay","yesterday":"H\u00f4m qua","last_week":"Tu\u1ea7n tr\u01b0\u1edbc","last_7_days":"7 ng\u00e0y tr\u01b0\u1edbc","last_30_days":"30 ng\u00e0y tr\u01b0\u1edbc","this_month":"Th\u00e1ng n\u00e0y","last_month":"Th\u00e1ng tr\u01b0\u1edbc","frame_not_exist":"Khung kh\u00f4ng t\u1ed3n t\u1ea1i","editor":"C\u00f4ng c\u1ee5","geography":"V\u1ecb tr\u00ed \u0111\u1ecba l\u00fd","country":"Qu\u1ed1c gia","city":"Th\u00e0nh ph\u1ed1","device":"Thi\u1ebft b\u1ecb","device_category":"Danh m\u1ee5c thi\u1ebft b\u1ecb","operation_system":"H\u1ec7 \u0111i\u1ec1u h\u00e0nh","browser":"Tr\u00ecnh duy\u1ec7t","source":"Ngu\u1ed3n","view_in_last_minute":"L\u01b0\u1ee3t xem trong :minute ph\u00fat","report_total":"B\u00e1o c\u00e1o chung","report_by_range_time":"B\u00e1o c\u00e1o theo th\u1eddi gian","total_view":"T\u1ed5ng l\u01b0\u1ee3t xem","total_download":"T\u1ed5ng l\u01b0\u1ee3t t\u1ea3i","view_report":"Xem b\u00e1o c\u00e1o th\u1ed1ng k\u00ea","hide":"\u1ea8n","search_placeholder":"T\u00ecm ki\u1ebfm t\u00ean khung h\u00ecnh","register_premium_year":"\u0110\u0103ng k\u00fd g\u00f3i Premium 1 n\u0103m","premium_year":"Premium 1 n\u0103m","choose_your_plan":"L\u1ef1a ch\u1ecdn g\u00f3i","choose_plan_description":"Tr\u1ea3i nghi\u1ec7m t\u00ednh n\u0103ng v\u1edbi g\u00f3i ph\u00f9 h\u1ee3p.","free":"Mi\u1ec5n ph\u00ed","free_plan_description":"T\u1ea1o khung kh\u00f4ng gi\u1edbi h\u1ea1n","premium_plan_description":"T\u1ea1o khung v\u00e0 tr\u1ea3i nghi\u1ec7m t\u00ednh n\u0103ng n\u00e2ng cao \u0111\u1eb7c s\u1eafc","current_plan":"G\u00f3i hi\u1ec7n t\u1ea1i","key_features":"T\u00ednh n\u0103ng ch\u00ednh","max_no_frame_photo":"T\u1ed1i \u0111a :no h\u00ecnh khung trong 1 l\u1ea7n t\u1ea1o","max_no_batch_photo":"T\u1ed1i \u0111a :no h\u00ecnh trong 1 l\u1ea7n thao t\u00e1c","max_batch_photo":"S\u1ed1 l\u01b0\u1ee3ng h\u00ecnh x\u1eed l\u00fd \u0111\u1ed3ng th\u1eddi","basic_report":"B\u00e1o c\u00e1o c\u01a1 b\u1ea3n","advanced_report":"B\u00e1o c\u00e1o n\u00e2ng cao","advanced":"N\u00e2ng cao","extended":"M\u1edf r\u1ed9ng","no_watermark":"Kh\u00f4ng c\u00f3 Watermark","high_quality_image":"H\u00ecnh \u1ea3nh ch\u1ea5t l\u01b0\u1ee3ng cao","buy_now":"Mua ngay","upgrade_now":"N\u00e2ng c\u1ea5p ngay","include_free_plan":"M\u1ecdi t\u00ednh n\u0103ng g\u00f3i mi\u1ec5n ph\u00ed","include_free_plan_and_more":"M\u1ecdi t\u00ednh n\u0103ng g\u00f3i mi\u1ec5n ph\u00ed, v\u00e0 h\u01a1n th\u1ebf:","ad_free":"Kh\u00f4ng hi\u1ec3n th\u1ecb qu\u1ea3ng c\u00e1o","create_advanced_frame":"T\u1ea1o khung n\u00e2ng cao","support_us":"H\u1ed7 tr\u1ee3 trang","compare_features":"So s\u00e1nh t\u00ednh n\u0103ng","number_of_frame":"S\u1ed1 l\u01b0\u1ee3ng khung \u0111\u01b0\u1ee3c t\u1ea1o","image_capacity":"Dung l\u01b0\u1ee3ng h\u00ecnh khung","unlimited":"Kh\u00f4ng gi\u1edbi h\u1ea1n","image_per_frame":"S\u1ed1 l\u01b0\u1ee3ng h\u00ecnh m\u1ed7i khung","custom_default_image":"T\u00f9y ch\u1ec9nh h\u00ecnh m\u1eb7c \u0111\u1ecbnh","custom_shared_image":"T\u00f9y ch\u1ec9nh h\u00ecnh chia s\u1ebb","analytics":"Ph\u00e2n t\u00edch","custom_date_range":"T\u00f9y ch\u1ec9nh ng\u00e0y xem","report_detail":"Chi ti\u1ebft b\u00e1o c\u00e1o","top_1":"Top 1","top_3":"Top 3","top_10":"Top 10","access_source":"Ngu\u1ed3n truy c\u1eadp","geography_report":"B\u00e1o c\u00e1o \u0111\u1ecba l\u00fd","advanced_options":"T\u00f9y ch\u1ecdn n\u00e2ng cao","custom_layout":"T\u00f9y ch\u1ec9nh giao di\u1ec7n theo y\u00eau c\u1ea7u","turn_off_ads":"T\u1eaft qu\u1ea3ng c\u00e1o to\u00e0n khung","checkout_title":"Th\u00f4ng tin \u0111\u01a1n h\u00e0ng","expires_on":"H\u1ebft h\u1ea1n l\u00fac :end_time","price":"Gi\u00e1","total":"T\u1ed5ng c\u1ed9ng","purchase":"Thanh to\u00e1n","proceed_payment":"Ti\u1ebfn h\u00e0nh thanh to\u00e1n","yes_continue":"\u0110\u1ed3ng \u00fd v\u00e0 Ti\u1ebfp t\u1ee5c","go_back":"Tr\u1edf l\u1ea1i","confirm_payment_note":"Vi\u1ec7c thanh to\u00e1n \u0111\u01b0\u1ee3c th\u1ef1c hi\u1ec7n an to\u00e0n qua c\u1ed5ng thanh to\u00e1n trung gian. Vui l\u00f2ng ho\u00e0n t\u1ea5t tr\u01b0\u1edbc khi ti\u1ebfn h\u00e0nh thanh to\u00e1n m\u1edbi.","secure_payment_via":"Thanh to\u00e1n an to\u00e0n qua :name","payment_successful":"Thanh to\u00e1n th\u00e0nh c\u00f4ng","payment_failed":"Thanh to\u00e1n th\u1ea5t b\u1ea1i","payment_canceled":"Thanh to\u00e1n b\u1ecb h\u1ee7y","payment_in_process":"Thanh to\u00e1n \u0111ang \u0111\u1ee3i x\u1eed l\u00fd","payment_expired":"Thanh to\u00e1n h\u1ebft h\u1ea1n","photo_area_required":"Vui l\u00f2ng th\u00eam v\u00f9ng h\u00ecnh \u1ea3nh!","start_at":"B\u1eaft \u0111\u1ea7u","end_at":"K\u1ebft th\u00fac","orders":"\u0110\u01a1n h\u00e0ng","out_of_times_to_feature":"B\u1ea1n \u0111\u00e3 h\u1ebft s\u1ed1 l\u01b0\u1ee3t s\u1eed d\u1ee5ng t\u00ednh n\u0103ng trong 24 gi\u1edd. Vui l\u00f2ng th\u1eed l\u1ea1i sau.","go_to_my_orders":"\u0110\u1ebfn trang \u0111\u01a1n h\u00e0ng","my_order":"\u0110\u01a1n h\u00e0ng","try_again":"Th\u1eed l\u1ea1i","current_premium_plan":"G\u00f3i Premium hi\u1ec7n t\u1ea1i","order_id":"M\u00e3 \u0111\u01a1n h\u00e0ng","success":"Th\u00e0nh c\u00f4ng","fail":"Th\u1ea5t b\u1ea1i","canceled":"\u0110\u00e3 h\u1ee7y","waiting":"\u0110ang \u0111\u1ee3i","check_payment":"Ki\u1ec3m tra thanh to\u00e1n","order_not_exist":"\u0110\u01a1n h\u00e0ng kh\u00f4ng t\u1ed3n t\u1ea1i","newest_order_status":"Tr\u1ea1ng th\u00e1i \u0111\u01a1n h\u00e0ng m\u1edbi nh\u1ea5t","reload_to_get_new_status":"T\u1ea3i l\u1ea1i trang \u0111\u1ec3 c\u1eadp nh\u1eadt tr\u1ea1ng th\u00e1i \u0111\u01a1n h\u00e0ng","reload":"T\u1ea3i l\u1ea1i trang","invite_register_premium_report_page":"Truy c\u1eadp \u0111\u1ea7y \u0111\u1ee7 b\u00e1o c\u00e1o v\u1edbi t\u00ednh n\u0103ng Premium cao c\u1ea5p","default_image":"H\u00ecnh m\u1eb7c \u0111\u1ecbnh","change_default_image":"\u0110\u1ed5i h\u00ecnh m\u1eb7c \u0111\u1ecbnh","images_shared_on_social_networks":" H\u00ecnh chia s\u1ebb MXH","customize_shared_image":"T\u00f9y ch\u1ec9nh \u1ea3nh chia s\u1ebb","crop_image":"C\u1eaft h\u00ecnh","maintenance":"\u0110ang b\u1ea3o tr\u00ec","other_tool":"C\u00f4ng c\u1ee5 kh\u00e1c","max_size_remove_background":"K\u00edch th\u01b0\u1edbc c\u1ea1nh t\u1ed1i \u0111a h\u00ecnh x\u00f3a n\u1ec1n","reach_maximum_photo_area":"S\u1ed1 v\u00f9ng h\u00ecnh \u1ea3nh \u0111\u00e3 t\u1ed1i \u0111a","redirect_to_payment_gateway":"\u0110i\u1ec1u h\u01b0\u1edbng \u0111\u1ebfn c\u1ed5ng thanh to\u00e1n","education":"Gi\u00e1o d\u1ee5c","support_education":"H\u1ed7 tr\u1ee3 gi\u00e1o d\u1ee5c","support_education_description":"H\u1ed7 tr\u1ee3 mi\u1ec5n ph\u00ed t\u00ednh n\u0103ng cao c\u1ea5p cho h\u1ecdc sinh, sinh vi\u00ean, gi\u00e1o vi\u00ean v\u00e0 c\u00e1c t\u1ed5 ch\u1ee9c gi\u00e1o d\u1ee5c. Xem h\u01b0\u1edbng d\u1eabn k\u00edch ho\u1ea1t \u003Ca href=\u0022:url\u0022\u003Et\u1ea1i \u0111\u00e2y\u003C\/a\u003E.","drop_upload_instruction":"K\u00e9o th\u1ea3 ho\u1eb7c B\u1ea5m v\u00e0o \u0111\u00e2y\u003Cbr\u003E\u0111\u1ec3 \u0111\u0103ng t\u1ea3i h\u00ecnh \u1ea3nh","drop_photo_area_upload_instruction":"K\u00e9o th\u1ea3 ho\u1eb7c B\u1ea5m v\u00e0o \u0111\u00e2y \u0111\u1ec3\u003Cbr\u003E\u0111\u0103ng t\u1ea3i h\u00ecnh \u1ea3nh \u0111\u1ebfn v\u00f9ng m\u00e0u v\u00e0ng","only_supports_format":"Ch\u1ec9 h\u1ed7 tr\u1ee3 \u0111\u1ecbnh d\u1ea1ng :format","try_other_image":"Vui l\u00f2ng th\u1eed l\u1ea1i v\u1edbi h\u00ecnh kh\u00e1c","template":"M\u1eabu thi\u1ebft k\u1ebf","designs":"Thi\u1ebft k\u1ebf khung","use_our_templates":"Th\u1eed ngay m\u1eabu thi\u1ebft k\u1ebf","template_frames_description":"Nh\u1eefng m\u1eabu thi\u1ebft k\u1ebf \u0111\u1eb7c bi\u1ec7t v\u00e0 xu h\u01b0\u1edbng","try_designs":"ho\u1eb7c th\u1eed t\u1ea1o khung theo m\u1eabu thi\u1ebft k\u1ebf","change_photo_instruction":"Ch\u1ecdn h\u00ecnh \u1ea3nh \u0111\u1ec3 ph\u00f3ng to, thu nh\u1ecf, xoay ho\u1eb7c thay \u0111\u1ed5i h\u00ecnh \u1ea3nh kh\u00e1c"};
+        window.adsense_active = '1';
+        window.tracking_service = 'https://tracking.khunghinh.net';
+    </script>
+  </head>
+
+  <body class="vi ">
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+        <!-- BEGIN HEADER -->
+                    <nav class="header-menu-navbar navbar navbar-expand-lg navbar-nav-scroll navbar-light bg-color  fixed-top py-3 py-lg-6  d-block" data-navbar-on-scroll="data-navbar-on-scroll" style="--bs-scroll-height: 100vh;">
+    <div class="container-sm px-0">
+        <a class="navbar-brand py-0 me-0 me-lg-7" href="https://khunghinh.net" aria-label="Go to homepage">
+            <div style="display: flex; align-items: center;">
+                <img src="/TestWebCopy/Image/logo-khunghinh.jpeg" width="44" height="44" alt="Khunghinh Logo" />
+                <h2 style="margin-left: 10px;color:green; ">Tạo khung hình</h2>
+              </div>
+        </a>
+                <div class="search">
+            
+        </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-4 mt-lg-0" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
+                        <li class="nav-item mb-3 w-100 d-inline-flex w-lg-auto border-bottom hide-lg-desktop">
+                <a class="btn btn-dark w-auto rounded-pill fw-bold mb-4" href="#" data-bs-toggle="modal" data-bs-target="#modalLogin">Đăng nhập</a>
+            </li>
+                        <li class="nav-item dropdown w-100 w-lg-auto my-4 my-lg-3 me-5">
+                <a class="nav-item-header d-inline-block ps-0 text-decoration-none dropdown-toggle fw-bold" href="#" data-bs-target="#toolDropdown" aria-controls="toolDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Công cụ</a>
+                <ul class="dropdown-menu dropdown-menu-start border-0 mt-2 mt-lg-3 shadow-lg pb-0 py-lg-2" id="toolDropdown">
+                    <li class="hide-lg-desktop">
+                        <a class="dropdown-item py-2 px-0 px-lg-3" href="#" data-bs-toggle="modal" data-bs-target="#create_frame_modal">
+                            <img class="menu-img me-3 me-lg-2 image-white" src="https://khunghinh.net/img/tool/homepage/create_fr.svg" width="24" alt="Tạo khung hình" />
+                            Tạo khung hình
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item py-2 px-0 px-lg-3" href="https://khunghinh.net/transparent-tool">
+                            <img class="menu-img me-3 me-lg-2 image-white" src="https://khunghinh.net/img/tool/homepage/transparent.svg" width="24" alt="Tạo vùng trong suốt" />
+                            Tạo vùng trong suốt
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item py-2 px-0 px-lg-3" href="https://khunghinh.net/compress-image">
+                            <img class="menu-img me-3 me-lg-2 image-white" src="https://khunghinh.net/img/tool/homepage/compress_img.svg" width="24" alt="Nén hình ảnh" />
+                            Nén hình ảnh
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item py-2 px-0 px-lg-3" href="https://khunghinh.net/resize-image">
+                            <img class="menu-img me-3 me-lg-2 image-white" src="https://khunghinh.net/img/tool/homepage/resize_img.svg" width="24" alt="Thay đổi kích thước" />
+                            Thay đổi kích thước
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item py-2 px-0 px-lg-3" href="https://khunghinh.net/remove-background">
+                            <img class="menu-img me-3 me-lg-2 image-white" src="https://khunghinh.net/img/tool/homepage/remove_bg.svg" width="24" alt="Xóa nền" />
+                            Xóa nền
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item py-2 px-0 px-lg-3" href="https://khunghinh.net/profile-marker">
+                            <img class="menu-img me-3 me-lg-2 image-white" src="https://khunghinh.net/img/tool/homepage/profile_maker.svg" width="24" alt="Tạo hình đại diện" />
+                            Tạo hình đại diện
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item py-2 px-0 px-lg-3" href="https://khunghinh.net/id-photo">
+                            <img class="menu-img me-3 me-lg-2 image-white" src="https://khunghinh.net/img/tool/homepage/id_photo.svg" width="24" alt="Ảnh thẻ" />
+                            Ảnh thẻ
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item nav-item-header w-100 w-lg-auto mb-3 mt-lg-3 me-5"><a class="nav-link p-0 fw-bold" aria-current="page" href="https://khunghinh.net/trending">Xu hướng</a></li>
+                        <li class="nav-item ms-auto nav-item-user hide-lg-mobile">
+                <a class="btn btn-dark order-1 rounded-pill order-lg-0 fw-bold my-2 my-xl-0" href="#" data-bs-toggle="modal" data-bs-target="#modalLogin">Đăng nhập</a>
+            </li>
+                                </ul>
+        </div>
+    </div>
+</nav>
+                <!-- END PAGE HEADER-->
+
+        <!-- BEGIN CONTENT -->
+        
+
+<section class="pt-9 pt-md-10 pb-lg-8 pb-0">
+    <div class="bg-holder" style="background-image:url(https://khunghinh.net/img/tool/homepage/intersect.svg);"></div>
+    <div class="header-banner mt-4 mt-md-0">
+        <img class="img-fluid header-banner-img" width="538" src="https://khunghinh.net/img/tool/homepage/header_banner.png" alt="hero-header" />
+    </div>
+    <div class="container-sm px-lg-0 header-home">
+        <div class="row align-items-center">
+            <div class="col-header-description col-lg-6 col-xl-7 text-start py-8 pb-5 py-lg-7">
+                <h4 class="fw-bold text-color-1 mb-4">Nơi khung hình  được chia sẻ</h4>
+                <h1 class="hero-title text-color-dark mb-5">Tạo <span class='frame-keyword'>khung hình</span><br> và lan tỏa chiến dịch, sự kiện, hoạt động</h1>
+                <p class="mb-5 mb-lg-7 pe-0 pe-lg-9">Cung cấp các công cụ hình ảnh để tạo khung hình và chia sẻ thông điệp về chiến dịch, sự kiện, hoạt động,... đến mọi người</p>
+                <div class="text-start">
+                                        <a class="btn btn-primary px-6 me-3 mb-4 mb-lg-0 fw-bold primary-btn-shadow rounded-pill text-tran-upper mw-200px" href="#!" data-bs-toggle="modal" data-bs-target="#modalLogin">Tạo ngay</a>
+                                        <a class="btn btn-outline-primary px-7 me-md-4 mb-4 mb-lg-0 fw-bold rounded-pill text-tran-upper" href="https://khunghinh.net/trending" role="button">Xu hướng</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================-->
+<!-- <section> begin ============================-->
+<section class="pt-0" id="category">
+    <div class="container-sm px-lg-0">
+        <div class="mb-5">
+            <h4 class="module-type fw-bold text-color-1">Danh mục </h4>
+            <h3 class="module-title fs-11 font-mynerve mb-3">Các công cụ tiện lợi</h3>
+            <p class="module-description">
+                Danh sách các công cụ xử lý hình ảnh tiện lợi và hoàn toàn miễn phí!
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card category-card align-items-center">
+                    <a href="https://khunghinh.net/tao-moi" class="card-body flex-row flex-md-column align-items-center align-items-md-start">
+                        <img class="category-img me-3" src="https://khunghinh.net/img/tool/homepage/create_fr.svg" width="75" alt="Tạo khung hình" />
+                        <div class="btn-try">Thử ngay</div>
+                        <div class="d-flex flex-column mt-md-auto">
+                            <p class="category-number mt-auto mb-0 font-caveat-brush">01/</p>
+                            <h4 class="mt-1 mb-0">Tạo khung hình</h4>
+                            <p class="mt-2 mb-0 fw-medium category-description"><strong>Tạo và chia sẻ khung hình</strong> sự kiện, chiến dịch, hoạt động, lễ hội,... đến mọi người.</p>
+                        </div>
+                     </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card category-card align-items-center">
+                    <a href="https://khunghinh.net/remove-background" class="card-body flex-row flex-md-column align-items-center align-items-md-start">
+                        <img class="category-img me-3" src="https://khunghinh.net/img/tool/homepage/remove_bg.svg" width="75" alt="Xóa nền" />
+                        <div class="btn-try">Thử ngay</div>
+                        <div class="d-flex flex-column mt-md-auto">
+                            <p class="category-number mt-auto mb-0 font-caveat-brush">02/</p>
+                            <h4 class="mt-1 mb-0">Xóa nền</h4>
+                            <p class="mt-2 mb-0 fw-medium category-description"><strong>Xóa nền hình ảnh</strong> nhanh chóng với độ chính xác cao. Phát hiện các đối tượng chính xác và <strong>loại bỏ nền hình ảnh</strong> một cách dễ dàng.</p>
+                        </div>
+                     </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card category-card align-items-center">
+                    <a href="https://khunghinh.net/compress-image" class="card-body flex-row flex-md-column align-items-center align-items-md-start">
+                        <img class="category-img me-3" src="https://khunghinh.net/img/tool/homepage/compress_img.svg" width="75" alt="Nén hình ảnh" />
+                        <div class="btn-try">Thử ngay</div>
+                        <div class="d-flex flex-column mt-md-auto">
+                            <p class="category-number mt-auto mb-0 font-caveat-brush">03/</p>
+                            <h4 class="mt-1 mb-0">Nén hình ảnh</h4>
+                            <p class="mt-2 mb-0 fw-medium category-description"><strong>Nén hình PNG</strong> giúp tiết kiệm dung lượng mà vẫn giữ chất lượng.</p>
+                        </div>
+                     </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-3 mb-4">
+                <div class="card category-card">
+                    <a href="https://khunghinh.net/transparent-tool" class="card-body flex-row flex-md-column align-items-center align-items-md-start">
+                        <img class="category-img me-3" src="https://khunghinh.net/img/tool/homepage/transparent.svg" width="75" alt="Tạo vùng trong suốt" />
+                        <div class="btn-try">Thử ngay</div>
+                        <div class="d-flex flex-column mt-md-auto">
+                            <p class="category-number mt-auto mb-0 font-caveat-brush">04/</p>
+                            <h4 class="mt-1 mb-0">Tạo vùng trong suốt</h4>
+                            <p class="mt-2 mb-0 fw-medium category-description"><strong>Tạo vùng trong suốt</strong> cho hình ảnh của bạn</p>
+                        </div>
+                     </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-3 mb-4">
+                <div class="card category-card align-items-center">
+                    <a href="https://khunghinh.net/resize-image" class="card-body flex-row flex-md-column align-items-center align-items-md-start">
+                        <img class="category-img me-3" src="https://khunghinh.net/img/tool/homepage/resize_img.svg" width="75" alt="Thay đổi kích thước" />
+                        <div class="btn-try">Thử ngay</div>
+                        <div class="d-flex flex-column mt-md-auto">
+                            <p class="category-number mt-auto mb-0 font-caveat-brush">05/</p>
+                            <h4 class="mt-1 mb-0">Thay đổi kích thước</h4>
+                            <p class="mt-2 mb-0 fw-medium category-description">Thay đổi <strong>kích thước hình ảnh</strong></p>
+                        </div>
+                     </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-3 mb-4">
+                <div class="card category-card align-items-center">
+                    <a href="https://khunghinh.net/profile-marker" class="card-body flex-row flex-md-column align-items-center align-items-md-start">
+                        <img class="category-img me-3" src="https://khunghinh.net/img/tool/homepage/profile_maker.svg" width="75" alt="Tạo hình đại diện" />
+                        <div class="btn-try">Thử ngay</div>
+                        <div class="d-flex flex-column mt-md-auto">
+                            <p class="category-number mt-auto mb-0 font-caveat-brush">06/</p>
+                            <h4 class="mt-1 mb-0">Tạo hình đại diện</h4>
+                            <p class="mt-2 mb-0 fw-medium category-description">Đăng tải hình chân dung và tạo ra nhiều hình đại diện thú vị với nhiều kiểu khung khác nhau</p>
+                        </div>
+                     </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-3 mb-4">
+                <div class="card category-card align-items-center">
+                    <a href="https://khunghinh.net/id-photo" class="card-body flex-row flex-md-column align-items-center align-items-md-start">
+                        <img class="category-img me-3" src="https://khunghinh.net/img/tool/homepage/id_photo.svg" width="75" alt="Ảnh thẻ" />
+                        <div class="btn-try">Thử ngay</div>
+                        <div class="badge-new fw-bold">Mới</div>
+                        <div class="d-flex flex-column mt-md-auto">
+                            <p class="category-number mt-auto mb-0 font-caveat-brush">07/</p>
+                            <h4 class="mt-1 mb-0">Ảnh thẻ</h4>
+                            <p class="mt-2 mb-0 fw-medium category-description">Tính năng tạo ảnh thẻ cho phép người dùng dễ dàng tạo ảnh thẻ chất lượng tốt nhất và tuân thủ quy định phù hợp cho hộ chiếu, giấy phép lái xe và các tài liệu khác.</p>
+                        </div>
+                     </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- <section> close ============================-->
+<!-- ============================================-->
+
+<section class="pt-0 pb-6" id="template-frame">
+    <div class="container-sm px-lg-0">
+        <div class="mb-5">
+            <h4 class="module-type fw-bold text-color-1">Thiết kế khung </h4>
+            <h3 class="module-title fs-11 font-mynerve mb-3">Thử ngay mẫu thiết kế</h3>
+            <p class="module-description">
+                Những mẫu thiết kế đặc biệt và xu hướng
+            </p>
+            <div class="module-btn-right btn-background">
+                <a class="btn fw-bold" href="https://khunghinh.net/designs" role="button">Xem thêm</a>
+            </div>
+        </div>
+    </div>
+        <div class="container-sm container-template-frames px-lg-0">
+        <div class="template-frames">
+                        <div class="template-frames-item">
+                <div class="template-one">
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalLogin">
+                        <div class="template-image">
+                            <img src="https://cdn.khunghinh.net/img/template/2024/12/19/cd3f04aa-590b-4d6a-b75b-398bde8c056c.webp" class="" alt="template" crossorigin="anonymous">
+                        </div>
+                    </a>
+                                    </div>
+            </div>
+                        <div class="template-frames-item">
+                <div class="template-one">
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalLogin">
+                        <div class="template-image">
+                            <img src="https://cdn.khunghinh.net/img/template/2024/09/04/22beec86-1c9c-445b-8863-d417ed393457.webp" class="" alt="template" crossorigin="anonymous">
+                        </div>
+                    </a>
+                                    </div>
+            </div>
+                        <div class="template-frames-item">
+                <div class="template-one">
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalLogin">
+                        <div class="template-image">
+                            <img src="https://cdn.khunghinh.net/img/template/2024/09/04/ba12181a-58c6-4311-befe-cc99e07dac7b.webp" class="" alt="template" crossorigin="anonymous">
+                        </div>
+                    </a>
+                                    </div>
+            </div>
+                        <div class="template-frames-item">
+                <div class="template-one">
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalLogin">
+                        <div class="template-image">
+                            <img src="https://cdn.khunghinh.net/img/template/2025/03/19/a64e83b6-b935-45b1-94a4-9a2f5b9477fd.webp" class="" alt="template" crossorigin="anonymous">
+                        </div>
+                    </a>
+                                    </div>
+            </div>
+                    </div>
+    </div>
+    </section>
+
+
+<section class="bg-dark text-light py-6 py-md-7" id="brand">
+    <div class="container-sm px-lg-0">
+        <div class="row mx-0 flex-row flex-nowrap align-items-center">
+            <div class="brand-description px-0 pe-md-2">Vinh dự khi nhận được sự tin tưởng đồng hành lan tỏa chiến dịch, sự kiện, hoạt động cùng các đơn vị, đoàn thể, công ty.</div>
+        </div>
+    </div>
+    <div class="brand-list pb-3 pt-6 py-md-7">
+        <div class="brand-image">
+            <img src="/img/brands/Logo_VNU-HCM-gray.png" alt="VNU HCM Gray" class="default-brand-image">
+            <img src="/img/brands/Logo_VNU-HCM.webp" alt="VNU HCM" class="hover-brand-image" loading="lazy">
+        </div>
+        <div class="brand-image">
+            <img src="/img/brands/VNU-HN-gray.svg" alt="VNU HN Gray" class="default-brand-image">
+            <img src="/img/brands/VNU-HN.svg" alt="VNU HN" class="hover-brand-image" loading="lazy">
+        </div>
+        <div class="brand-image">
+            <img src="/img/brands/vibrant_hcm_city-gray.png" alt="Sở du lịch Thành phố Hồ Chí Minh Gray" class="default-brand-image">
+            <img src="/img/brands/vibrant_hcm_city.png" alt="Sở du lịch Thành phố Hồ Chí Minh" class="hover-brand-image" loading="lazy">
+        </div>
+        <div class="brand-image">
+            <img src="/img/brands/Logo-VNA-gray.png" alt="Vietnam Airlines Gray" class="default-brand-image">
+            <img src="/img/brands/Logo-VNA.webp" alt="Vietnam Airlines" class="hover-brand-image" loading="lazy">
+        </div>
+        <div class="brand-image">
+            <img src="/img/brands/acb-gray.png" alt="ACB Gray" class="default-brand-image">
+            <img src="/img/brands/acb.png" alt="ACB" class="hover-brand-image" loading="lazy">
+        </div>
+        <div class="brand-image">
+            <img src="/img/brands/aia-gray.png" alt="AIA Gray" class="default-brand-image">
+            <img src="/img/brands/aia.png" alt="AIA" class="hover-brand-image" loading="lazy">
+        </div>
+        <div class="brand-image">
+            <img src="/img/brands/VTVgo_logo-gray.svg" alt="VTV Go Gray" class="default-brand-image">
+            <img src="/img/brands/VTVgo_logo.webp" alt="VTV Go" class="hover-brand-image" loading="lazy">
+        </div>
+        <div class="brand-image">
+            <img src="/img/brands/coopmart-gray.png" alt="Co.opmart Gray" class="default-brand-image">
+            <img src="/img/brands/coopmart.png" alt="Co.opmart" class="hover-brand-image" loading="lazy">
+        </div>
+        <div class="brand-image">
+            <img src="/img/brands/Logo_Vinhomes-gray.png" alt="Vinhomes Gray" class="default-brand-image">
+            <img src="/img/brands/Logo_Vinhomes.png" alt="Vinhomes" class="hover-brand-image" loading="lazy">
+        </div>
+        <div class="brand-image mt-2">
+            <img src="/img/brands/Viettel-gray.svg" alt="Viettel Gray" class="default-brand-image">
+            <img src="/img/brands/Viettel.svg" alt="Viettel" class="hover-brand-image" loading="lazy">
+        </div>
+        <div class="brand-image">
+            <img src="/img/brands/vinasuntaxi-gray.png" alt="Vinasun Taxi Gray" class="default-brand-image">
+            <img src="/img/brands/vinasuntaxi.png" alt="Vinasun Taxi" class="hover-brand-image" loading="lazy">
+        </div>
+        <div class="brand-image">
+            <img src="/img/brands/comfort-gray.svg" alt="Comfort Gray" class="default-brand-image">
+            <img src="/img/brands/comfort.svg" alt="Comfort" class="hover-brand-image" loading="lazy">
+        </div>
+    </div>
+</section>
+
+<section id="trending-frame">
+    <div class="container-sm px-lg-0">
+        <div class="mb-5">
+            <h4 class="module-type fw-bold text-color-1">Xu hướng </h4>
+            <h3 class="module-title fs-11 font-mynerve mb-3">Các khung hình nổi bật</h3>
+            <p class="module-description">
+                Danh sách khung hình nhận được nhiều tương tác nhất trong 24 giờ qua.
+            </p>
+            <div class="module-btn-right btn-background">
+                <a class="btn fw-bold" href="https://khunghinh.net/trending" role="button">Xem thêm</a>
+            </div>
+        </div>
+    </div>
+        <div class="container-sm container-trending-frames px-lg-0">
+        <div class="trending-frames">
+                        <div class="trending-frames-item">
+                <div class="leader-board-badge top-1">1</div>
+                <div class="frame-one">
+                    <div class="frame-top">
+                        <a href="https://khunghinh.net/p/cc5be5be93a7a5d2">
+                            <div class="frame-image">
+                                <img src="https://cdn.khunghinh.net/img/event/2025/07/03/thumb_a2f5d1be85ea433b.webp" class="" alt="frame" crossorigin="anonymous">
+                            </div>
+                            <h2 class="frame-title fw-bold mt-4">Chào mừng thành lập Phường An Phong - Hải Phòng</h2>
+                        </a>
+                        <span class="badge rounded-pill fw-bold frame-type frame-type-3">Chiến dịch</span>
+                    </div>
+                    <div class="frame-bottom mt-auto">
+                        <div class="frame-creator d-flex align-items-center mt-3">
+                            <img class="frame-creator-avatar circle" src="https://lh3.googleusercontent.com/a/ACg8ocLAEAeOWLqt4aJh9jm-entVBREqGL3ju1tiq9lhMDVLa_WHgNs=s96-c" alt="Hau Dev" crossorigin="anonymous">
+                            <div class="d-flex frame-creator-name">
+                                <span class="frame-creator-name-text pe-1">Trần Tuấn Việt</span>
+                                <span class="frame-creator-name-icon-premium"></span>
+                            </div>
+                        </div>
+                        <div class="frame-created-at d-flex align-items-center">
+                            <i class="fa-solid fa-clock"></i>2 ngày trước
+                        </div>
+                        <div class="frame-views d-flex align-items-center">
+                            <i class="fa-solid fa-eye"></i>2.277
+                        </div>
+                        <div class="button-use-frame">
+                            <a class="btn btn-primary fw-bold primary-btn-shadow rounded-pill text-tran-upper" href="https://khunghinh.net/p/cc5be5be93a7a5d2" role="button">Thử khung nảy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="trending-frames-item">
+                <div class="leader-board-badge top-2">2</div>
+                <div class="frame-one">
+                    <div class="frame-top">
+                        <a href="https://khunghinh.net/p/Khung1-7">
+                            <div class="frame-image">
+                                <img src="https://cdn.khunghinh.net/img/event/2025/07/01/thumb_9f49264a-e71f-404d-b3c2-88af049218dd.webp" class="" alt="frame" crossorigin="anonymous">
+                            </div>
+                            <h2 class="frame-title fw-bold mt-4">Khung sát nhập 1/7</h2>
+                        </a>
+                        <span class="badge rounded-pill fw-bold frame-type frame-type-1">Sự kiện</span>
+                    </div>
+                    <div class="frame-bottom mt-auto">
+                        <div class="frame-creator d-flex align-items-center mt-3">
+                            <img class="frame-creator-avatar circle" src="https://lh3.googleusercontent.com/a/ACg8ocIuZc6jpp0ifU4_qvrPxHZt1hjEcZ-ZM7zL_EiK3d2IhqxRog=s96-c" alt="Hau Dev" crossorigin="anonymous">
+                            <div class="d-flex frame-creator-name">
+                                <span class="frame-creator-name-text pe-1">Phong Triệu</span>
+                                <span class="frame-creator-name-icon-premium"></span>
+                            </div>
+                        </div>
+                        <div class="frame-created-at d-flex align-items-center">
+                            <i class="fa-solid fa-clock"></i>3 ngày trước
+                        </div>
+                        <div class="frame-views d-flex align-items-center">
+                            <i class="fa-solid fa-eye"></i>4.470
+                        </div>
+                        <div class="button-use-frame">
+                            <a class="btn btn-primary fw-bold primary-btn-shadow rounded-pill text-tran-upper" href="https://khunghinh.net/p/Khung1-7" role="button">Thử khung nảy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="trending-frames-item">
+                <div class="leader-board-badge top-3">3</div>
+                <div class="frame-one">
+                    <div class="frame-top">
+                        <a href="https://khunghinh.net/p/phuongAnPhudong2025">
+                            <div class="frame-image">
+                                <img src="https://cdn.khunghinh.net/img/event/2025/07/02/thumb_68b09c447dd8871f.webp" class="" alt="frame" crossorigin="anonymous">
+                            </div>
+                            <h2 class="frame-title fw-bold mt-4">Khung ảnh Phường An Phú Đông, TP.HCM</h2>
+                        </a>
+                        <span class="badge rounded-pill fw-bold frame-type frame-type-0"></span>
+                    </div>
+                    <div class="frame-bottom mt-auto">
+                        <div class="frame-creator d-flex align-items-center mt-3">
+                            <img class="frame-creator-avatar circle" src="https://lh3.googleusercontent.com/a/ACg8ocL9PDK2PCydSLWuP_2WTY0iX6eF6CydeqZR6H_7DMqJUUoPQg=s96-c" alt="Hau Dev" crossorigin="anonymous">
+                            <div class="d-flex frame-creator-name">
+                                <span class="frame-creator-name-text pe-1">An Phú Đông Tuổi trẻ</span>
+                                <span class="frame-creator-name-icon-premium"></span>
+                            </div>
+                        </div>
+                        <div class="frame-created-at d-flex align-items-center">
+                            <i class="fa-solid fa-clock"></i>3 ngày trước
+                        </div>
+                        <div class="frame-views d-flex align-items-center">
+                            <i class="fa-solid fa-eye"></i>1.666
+                        </div>
+                        <div class="button-use-frame">
+                            <a class="btn btn-primary fw-bold primary-btn-shadow rounded-pill text-tran-upper" href="https://khunghinh.net/p/phuongAnPhudong2025" role="button">Thử khung nảy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="trending-frames-item">
+                <div class="leader-board-badge top-4">4</div>
+                <div class="frame-one">
+                    <div class="frame-top">
+                        <a href="https://khunghinh.net/p/XAKIENHAI2">
+                            <div class="frame-image">
+                                <img src="https://cdn.khunghinh.net/img/event/2025/07/03/thumb_76708655b6d1947c.webp" class="" alt="frame" crossorigin="anonymous">
+                            </div>
+                            <h2 class="frame-title fw-bold mt-4">KIEN HAI CHUAN</h2>
+                        </a>
+                        <span class="badge rounded-pill fw-bold frame-type frame-type-1">Sự kiện</span>
+                    </div>
+                    <div class="frame-bottom mt-auto">
+                        <div class="frame-creator d-flex align-items-center mt-3">
+                            <img class="frame-creator-avatar circle" src="https://lh3.googleusercontent.com/a/ACg8ocLzQkFZFN5LGh8zO7yVgd7OkHRWAqefDFIcDy_dz5X2VWfnKQ=s96-c" alt="Hau Dev" crossorigin="anonymous">
+                            <div class="d-flex frame-creator-name">
+                                <span class="frame-creator-name-text pe-1">Hai Phuong</span>
+                                <span class="frame-creator-name-icon-premium"></span>
+                            </div>
+                        </div>
+                        <div class="frame-created-at d-flex align-items-center">
+                            <i class="fa-solid fa-clock"></i>2 ngày trước
+                        </div>
+                        <div class="frame-views d-flex align-items-center">
+                            <i class="fa-solid fa-eye"></i>1.468
+                        </div>
+                        <div class="button-use-frame">
+                            <a class="btn btn-primary fw-bold primary-btn-shadow rounded-pill text-tran-upper" href="https://khunghinh.net/p/XAKIENHAI2" role="button">Thử khung nảy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+    </section>
+
+<div class="position-fixed banner-footer-fixed hide">
+    <div class="d-flex align-items-center justify-content-center">
+        <div class="me-3">Công cụ chỉnh màu hình ảnh trắng đen</div>
+        <div><a href="trang-den" class="btn btn-primary btn-ob mw-100px">THỬ NGAY</a></div>
+    </div>
+</div>
+
+
+
+        <!-- END PAGE CONTENT-->
+
+        <!-- BEGIN FOOTER -->
+                    <!-- ============================================-->
+<!-- <section> begin ============================-->
+<section class="pb-0 pt-7 shadow-top bg-dark">
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-md-6 mb-lg-0 ps-lg-0 order-0">
+                <a href="https://khunghinh.net">
+                    <img class="image-white mb-4" src="https://khunghinh.net/img/logo-kh-text.svg" height="44" alt="logo zFrame footer" />
+                </a>
+                                <div class="language-box">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle px-3 py-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-globe me-2"></i>Tiếng Việt
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                                                                                                                            <li><a class="dropdown-item" href="https://khunghinh.net/language/en">English</a></li>
+                                                                                                                                <li><a class="dropdown-item" href="https://khunghinh.net/language/fil">Filipino</a></li>
+                                                                                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 order-lg-1 order-md-2">
+                <h4 class="footer-heading-color text-heading-scale fw-bold mb-3 mb-lg-4">Khunghinh</h4>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2 hide"><a class="link-light text-scale text-decoration-none" href="#!">Về chúng tôi</a></li>
+                    <li class="mb-2"><a class="link-light text-scale text-decoration-none" href="https://khunghinh.net/contact">Liên hệ</a></li>
+                    <!-- <li class="mb-2"><a class="link-light text-scale text-decoration-none" href="https://khunghinh.net/education">Hỗ trợ giáo dục</a></li> -->
+                    <!-- <li class="mb-2"><a class="link-light text-scale text-decoration-none" href="https://khunghinh.net/pricing">Bảng giá</a></li> -->
+                    <li class="mb-2"><a class="link-light text-scale text-decoration-none" href="https://khunghinh.net/terms-of-service">Điều khoản sử dụng</a></li>
+                    <li class="mb-2"><a class="link-light text-scale text-decoration-none" href="https://khunghinh.net/privacy-policy">Chính sách bảo mật</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 order-lg-3 order-md-4">
+                <h4 class="footer-heading-color text-heading-scale fw-bold mb-3 mb-lg-4">Công cụ</h4>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2"><a class="link-light text-scale text-decoration-none" href="https://khunghinh.net/tao-moi">Tạo khung hình</a></li>
+                    <li class="mb-2"><a class="link-light text-scale text-decoration-none" href="https://khunghinh.net/remove-background">Xóa nền</a></li>
+                    <li class="mb-2"><a class="link-light text-scale text-decoration-none" href="https://khunghinh.net/transparent-tool">Tạo vùng trong suốt</a></li>
+                    <li class="mb-2"><a class="link-light text-scale text-decoration-none" href="https://khunghinh.net/compress-image">Nén hình ảnh</a></li>
+                    <li class="mb-2"><a class="link-light text-scale text-decoration-none" href="https://khunghinh.net/resize-image">Thay đổi kích thước</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 col-12 mb-5 mb-md-6 mb-lg-0 order-lg-4 order-md-1">
+                <h4 class="footer-heading-color text-heading-scale fw-bold mb-3 mb-lg-4">Theo dõi chúng tôi</h4>
+                <div class="icon-group mb-2">
+                    <a class="text-decoration-none text-center me-4" href="https://www.facebook.com/khunghinh.net">
+                        <span class="icon-item shadow-social me-0 mb-2" id="facebook" >
+                            <i class="fab fa-facebook-f"></i>
+                        </span>
+                        <span class="link-light">Page</span>
+                    </a>
+                                        <a class="text-decoration-none text-center" href="https://www.facebook.com/groups/khunghinh.net">
+                        <span class="icon-item shadow-social me-0 mb-2" id="facebook-group" >
+                            <i class="ob-icon icon-fb-group"></i>
+                        </span>
+                        <span class="link-light">Group</span>
+                    </a>
+                    
+                    <a class="text-decoration-none icon-item shadow-social hide" id="twitter" href="#!"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+            <div class="col-12 px-lg-0 order-5 mt-md-6">
+                <hr class="border-bottom-light my-0">
+            </div>
+        </div>
+    </div><!-- end of .container-->
+
+</section>
+<!-- <section> close ============================-->
+<!-- ============================================-->
+
+
+<div class="pt-4 pb-5 text-center bg-dark">
+    <p class="mb-0 text-light fs--1 fw-medium copyright">
+        2016 - 2025 &copy; KhungHinh. All rights reserved.
+    </p>
+</div>
+                <!-- END PAGE FOOTER-->
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="modalLogin">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4 pt-2">
+                    <div class="agree-info">
+                        Bằng cách đăng nhập, bạn đã đồng ý về <br><a href="https://khunghinh.net/terms-of-service">Điều khoản sử dụng</a> và <a href="https://khunghinh.net/privacy-policy">Chính sách bảo mật</a> của <strong>KhungHinh</strong>
+                    </div>
+                    <div class="btn-login-list mt-4">
+                        <a class="btn-login-google" href="https://khunghinh.net/login-google">
+                            <i class="fa fa-brands fa-google" aria-hidden="true"></i><span class="btn_text">Đăng nhập qua Google</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Login Modal -->
+
+    <!-- Create Frame Modal -->
+    <div class="modal fade" id="create_frame_modal">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body px-lg-7 px-3 py-lg-5 py-4">
+                    <p class="font-mynerve text-center fw-bold fs-8 lh-1 mb-4">Chọn loại khung hình</p>
+                    <div class="d-flex justify-content-center flex-column">
+                        <div class="frame-type-item active" data-url="https://khunghinh.net/tao-moi">
+                            <img src="https://khunghinh.net/img/tool/homepage/create_frame_1.png" />
+                            <div class="frame-type-item-description">
+                                <p class="fw-bold mb-2">Frame Collection</p>
+                                <span class="">Khung có nhiều HÌNH KHUNG</span>
+                            </div>
+                        </div>
+                        <div class="frame-type-item mt-3 mt-lg-4" data-url="https://khunghinh.net/tao-khung-ghep">
+                            <img src="https://khunghinh.net/img/tool/homepage/create_frame_2.png" />
+                            <div class="frame-type-item-description">
+                                <div class="badge-new fw-bold">Mới</div>
+                                <p class="fw-bold mb-2">Photo Collage</p>
+                                <span class="">Khung có nhiều VÙNG HÌNH</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center my-3">
+                        <span class="">Tham gia Group để cùng trao đổi, chia sẻ, hỗ trợ về thiết kế khung hình ngay <a href="https://www.facebook.com/groups/khunghinh.net">tại đây</a></span>
+                    </div>
+                    <button class="btn btn-center mt-4 btn-primary btn-submit px-6 fw-bold primary-btn-shadow rounded-pill text-tran-upper" type="button" >Tạo ngay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Login Modal -->
+
+    <!-- ===============================================-->
+    <!-- JavaScripts -->
+    <!-- ===============================================-->
+            <script src="https://khunghinh.net/lib/bootstrap@5.2.0/js/bootstrap.bundle.min.js"></script>
+        <script src="https://khunghinh.net/theme/jadoo/vendors/is/is.min.js"></script>
+        <script src="https://khunghinh.net/theme/jadoo/assets/js/theme.js"></script>
+        <script src="https://khunghinh.net/lib/jquery.blockui.js"></script>
+        <script src="https://khunghinh.net/lib/sweetalert2-11.3.6/sweetalert2.all.min.js"></script>
+        <script src="https://khunghinh.net/lib/bowser@2.7.0/es5.js"></script>
+        <script src="https://khunghinh.net/lib/fabric@5.3.1/fabric-v5.2.1.min.js"></script>
+
+        <script src="https://khunghinh.net/app/custom.js"></script>
+    <script src="https://khunghinh.net/lib/slick/slick-1.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        if ($('.brand-list').length > 0){
+            $('.brand-list').slick({
+                // variableWidth: true,
+                slidesToShow: 5,
+                slidesToScroll: 3,
+                // infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                speed: 1500,
+                // centerMode: true,
+                prevArrow: '',
+                nextArrow: '',
+                responsive: [
+                    {
+                        breakpoint: 1201,
+                        settings: {
+                            slidesToShow: 4
+                        }
+                    },
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 4,
+                            // slidesToScroll: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                        }
+                    },
+                ]
+            });
+        }
+    });
+</script>
+        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Mynerve&display=swap" rel="stylesheet">
+    <!-- <link href='https://fonts.googleapis.com/css2?family=Volkhov:wght@700&amp;display=swap' rel='stylesheet' type='text/css'> -->
+    
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-99YCHBY4PW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-99YCHBY4PW');
+    </script>
+    
+    
+        <script async src="https://cse.google.com/cse.js?cx=53bdc1fc726594dc4"></script>
+    <script>
+        window.onload = function(){
+            if (document.getElementById('gsc-i-id1')) {
+                document.getElementById('gsc-i-id1').placeholder = 'Tìm kiếm tên khung hình';
+            }
+        };
+    </script>
+      <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'95a526a68d6993d2',t:'MTc1MTcwMDU2My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>
